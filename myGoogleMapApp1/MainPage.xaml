@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compability/2006"
+             xmlns:maps="clr-namespace:Xamarin.Forms.GoogleMaps;assembly=Xamarin.Forms.GoogleMaps;assembly=Xamarin.Forms.GoogleMaps"
+             x:Class="myGoogleMapApp1.MainPage">
+
+    <Grid>
+        <maps:Map x:Name="map"/>
+        <Button Text="Servicedagar nära dig" Clicked="Button_Clicked"  VerticalOptions="EndAndExpand" CornerRadius="15"
+                Margin="50" BackgroundColor="Transparent" FontAttributes="Bold" BorderColor="LightGray" BorderWidth="3"/>
+    </Grid>
+</ContentPage>
